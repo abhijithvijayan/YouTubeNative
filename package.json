@@ -6,8 +6,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "build:android": "cd android && ./gradlew assembleRelease",
-    "test:android": "react-native run-android --variant=release"
+    "bundle:android": "cd android && ./gradlew assembleRelease",
+    "build:android": "react-native run-android --variant=release"
   },
   "dependencies": {
     "axios": "^0.18.0",
